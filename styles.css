@@ -261,7 +261,7 @@ h1 {
 }
 
 .links {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   background: color-mix(in srgb, var(--panel-strong) 72%, transparent);
 }
 
@@ -275,6 +275,7 @@ h1 {
   color: var(--text);
   font-size: clamp(18px, 2vw, 22px);
   font-weight: 750;
+  overflow-wrap: anywhere;
   transition: transform 180ms ease;
 }
 
