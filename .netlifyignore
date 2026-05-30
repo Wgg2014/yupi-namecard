@@ -1,0 +1,7 @@
+.chrome-profile/
+.edge-profile/
+server.err.log
+server.out.log
+server.mjs
+serve.bat
+run.bat

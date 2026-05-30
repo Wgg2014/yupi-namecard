@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Cartoon programmer avatar</title>
+  <desc id="desc">A friendly cartoon programmer holding a laptop with code symbols.</desc>
+  <defs>
+    <linearGradient id="bg" x1="120" x2="540" y1="70" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7dd3fc"/>
+      <stop offset=".48" stop-color="#a7f3d0"/>
+      <stop offset="1" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="hoodie" x1="190" x2="475" y1="345" y2="575" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#0f172a" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="640" height="640" rx="160" fill="#f8fafc"/>
+  <circle cx="320" cy="302" r="258" fill="url(#bg)"/>
+  <path fill="#fff" fill-opacity=".42" d="M94 285c41-88 126-151 226-151 99 0 187 60 225 149-63-33-134-51-209-51-86 0-168 19-242 53Z"/>
+  <g filter="url(#softShadow)">
+    <path fill="url(#hoodie)" d="M166 560c19-126 76-190 154-190s135 64 154 190H166Z"/>
+    <path fill="#1d4ed8" d="M262 394c11 42 26 70 58 70s47-28 58-70c-17-14-36-22-58-22s-41 8-58 22Z"/>
+    <path fill="#f7c9a9" d="M272 333h96v74c0 26-21 47-48 47s-48-21-48-47v-74Z"/>
+    <path fill="#e8aa87" d="M272 352c15 17 32 25 50 25 17 0 32-6 46-20v-24h-96v19Z"/>
+    <path fill="#f7c9a9" d="M214 245c0-67 43-119 106-119s106 52 106 119v38c0 62-46 108-106 108s-106-46-106-108v-38Z"/>
+    <path fill="#111827" d="M203 251c3-86 51-144 124-144 59 0 106 38 116 101 3 19-1 35-7 51-31-1-73-16-105-44-28 31-75 51-128 36Z"/>
+    <path fill="#111827" d="M212 243c-18 13-23 43-11 73 10 25 24 34 36 24 9-8 3-28-3-48-6-19-9-38-22-49Z"/>
+    <path fill="#111827" d="M429 243c18 13 23 43 11 73-10 25-24 34-36 24-9-8-3-28 3-48 6-19 9-38 22-49Z"/>
+    <ellipse cx="279" cy="275" rx="12" ry="15" fill="#111827"/>
+    <ellipse cx="361" cy="275" rx="12" ry="15" fill="#111827"/>
+    <path fill="none" stroke="#c47f62" stroke-linecap="round" stroke-width="9" d="M315 282c-4 18-9 34-16 48 10 8 24 9 36 3"/>
+    <path fill="none" stroke="#111827" stroke-linecap="round" stroke-width="10" d="M286 350c20 16 48 16 68 0"/>
+    <path fill="none" stroke="#111827" stroke-linecap="round" stroke-width="12" d="M252 247c17-12 39-13 58-3M335 244c19-10 42-8 58 5"/>
+    <path fill="#0f172a" d="M124 520c0-22 18-40 40-40h312c22 0 40 18 40 40v42H124v-42Z"/>
+    <rect x="162" y="414" width="316" height="142" rx="22" fill="#f8fafc"/>
+    <rect x="181" y="433" width="278" height="104" rx="14" fill="#111827"/>
+    <path fill="none" stroke="#38bdf8" stroke-linecap="round" stroke-linejoin="round" stroke-width="14" d="m267 484-32 27 32 27M373 484l32 27-32 27"/>
+    <path fill="none" stroke="#a7f3d0" stroke-linecap="round" stroke-width="14" d="m336 470-32 82"/>
+    <circle cx="320" cy="485" r="11" fill="#fde68a"/>
+  </g>
+</svg>
